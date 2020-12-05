@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+/* Header */
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #F85E1A;
+    position: sticky !important;
+    top: 0 ;
+    z-index: 9999999;
+}
+
+.logo{
+    width: 40%;
+}
+.search-bar{
+    width: 400px !important;
+}
+.search{
+    background-color: #00ABF0;
+    color: #ffffff;
+}
+
+/* Sub-Header */
+.sub-header{
+    background-color: #00ABF0;
+    position:sticky !important;
+    top: 55px !important;
+    z-index: 9999999;
+}
+
+a.nav-link{
+    color: #ffffff;
+}
+a.nav-link:hover{
+    color: #F85E1A;
+    background-color: #ffffff;
+}
+.home{
+    color: #F85E1A !important;
+    background-color: #ffffff;
+}
+
+/* Banner Slider */
+.d-block{
+    height: 400px;
+}
+
+/* Stores */
+.store-bg{
+    background-color: #00ABF0;
+    color: white;
+}
+.store-head{
+    text-align: center;
+    font-weight: bold;
+
+}
+.store-sub{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* Categories */
+.categories{
+    background-color: #F85E1A;
+}
+.category-one{
+    width: 270px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px white;
+}
+.category-head{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.category-one ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.category-one ul li a{
+    color: #F85E1A;
+
+}
+.fa{
+    color: #00ABF0;
+}
+.title{
+    color: #00ABF0!important;
+    font-size: 30px;
+    text-decoration: none !important;
+}
+
+/* Coupons */
+.coupon-head{
+    text-align: center;
+    color: #00ABF0;
+}
+.coupon-body{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    border: 2px solid #F85E1A;
+}
+.title-head{
+
+    font-weight: bold;
+    color: #F85E1A;
+}
+.promo{
+background-color: #F85E1A;
+    color: white;
+    user-select: all!important;
+}
+.expire{
+    background-color: #00ABF0;
+    color: white;
+}
+
+/* Footer */
+.footer{
+    background-color: #F85E1A;
+    padding: 30px;
+
+}
+.footer-logo{
+    width: 250px;
+    height: 100px;
+}
+.f-text{
+    padding-top: 10px;
+    color: white;
+}
+.deals{
+    color: white;
+    list-style-type: none;
+    padding-left: 60px;
+    padding-top: 18px;
+}
+.f-head{
+    font-size: 30px;
+}
+.deals li a{
+    color: white;
+    text-decoration: none;
+}
+.form{
+    margin-top: 20px;
+}
+.send{
+    background-color: #00ABF0;
+    color: white;
+    width: 100px;
+}
+.icons{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.icons li a{
+    color: white;
+    font-size: 20px;
+}
+.copyright{
+    text-align: center;
+    color: white;
+
+}
+
+/* Responsiveness */
+@media (min-width: 992px) and (max-width: 1199px){
+
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    .stores-row{
+      position: relative;
+        right: 40px;
+    }
+    .category-row{
+        position: relative;
+        right: 10px;
+    }
+    .category-one{
+        width: 225px;
+    }
+    .deals{
+       position: relative;
+        right: 30px;
+    }
+    .footer-logo{
+        width: 150px;
+        height: 60px;
+    }
+    .f-head{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+    html{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .search-bar{
+        width: 200px !important;
+    }
+    .home{
+        background-color: transparent;
+        color: white;
+    }
+    a.nav-link:hover{
+        background-color: transparent;
+    }
+    .stores-row{
+        position: relative;
+        right: 70px;
+    }
+    .category-row{
+        position: relative;
+        right: 10px;
+    }
+    .category-one{
+        width: 170px;
+    }
+    .coupon-img{
+        position: relative;
+        right: 10px;
+        top: 40px;
+        width: 200px;
+    }
+    .content{
+        position: relative;
+        right: 30px;
+    }
+    .promo{
+        position: relative;
+        right: 30px;
+        top: 40px;
+        width: 180px;
+        font-size: 14px !important;
+    }
+    .expire{
+        position: relative;
+        right: 30px;
+        top: 30px;
+        width: 180px;
+        font-size: 12px !important;
+    }
+    .deals{
+        position: relative;
+        right: 30px;
+    }
+    .footer-logo{
+        width: 150px;
+        height: 60px;
+    }
+    .f-head{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+}
+@media (min-width: 601px) and (max-width: 767px){
+
+    html{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .search-bar{
+        width: 200px !important;
+    }
+    .home{
+        background-color: transparent;
+        color: white;
+    }
+    a.nav-link:hover{
+        background-color: transparent;
+    }
+    .stores-row{
+        position: relative;
+       left: 100px;
+    }
+    .category-row{
+        position: relative;
+        left: 100px;
+    }
+    .category-one{
+        margin: 20px;
+    }
+
+
+    .coupon-img{
+        position: relative;
+        right: -100px;
+    }
+
+    .promo{
+        position: relative;
+        bottom: 20px;
+        left: 20px;
+    }
+    .expire{
+        position: relative;
+        bottom: 9px;
+        left: 30px;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 600px){
+
+    html{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .search-bar{
+        width: 300px !important;
+    }
+    .home{
+        background-color: transparent;
+        color: white;
+    }
+    a.nav-link:hover{
+        background-color: transparent;
+    }
+    .stores-row{
+        position: relative;
+        left: 80px;
+    }
+    .category-row{
+        position: relative;
+        left: 80px;
+    }
+    .category-one{
+        margin: 20px;
+    }
+
+    .coupon-body{
+       position: relative;
+        left: 15px;
+    }
+    .coupon-img{
+        position: relative;
+        right: -80px;
+    }
+
+    .promo{
+        position: relative;
+        bottom: 20px;
+
+    }
+    .expire{
+        position: relative;
+        bottom: 9px;
+        left: 10px;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    html{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .mob-logo{
+        margin: 0 auto;
+        width: 300px;
+        position: relative;
+        left: 80px;
+    }
+    .row-2{
+        margin-top: -50px;
+    }
+    .search-bar{
+
+        width: 200px !important;
+
+    }
+    .home{
+        background-color: transparent;
+        color: white;
+    }
+    a.nav-link:hover{
+        background-color: transparent;
+    }
+    .stores-row{
+        position: relative;
+       left: 30px;
+
+    }
+    .category-row{
+        position: relative;
+        left: 20px;
+    }
+    .category-one{
+        margin: 20px;
+    }
+    .footer-one{
+        margin: 0 auto;
+        width: 300px;
+        position: relative;
+        left: 15px;
+    }
+    .general{
+       position: relative;
+        top: 30px;
+    }
+    .fields{
+        margin-top: 60px;
+    }
+    .form{
+        margin: 0 auto;
+        width: 250px;
+        position: relative;
+        right: 40px;
+    }
+    .coupon-body{
+        position: relative;
+        left: 15px;
+    }
+    .coupon-img{
+        position: relative;
+        right: -10px;
+    }
+    .deals{
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .promo{
+        position: relative;
+        bottom: 20px;
+
+    }
+    .expire{
+        position: relative;
+        bottom: 20px;
+    }
+    .copyright{
+        padding-top: 30px;
+    }
+    .set-dimensions{
+        width: 275px;
+        height: 183px;
+    }
+
+
+}
